@@ -1,5 +1,8 @@
 class EarlyStopping(object):
-    """Checks if the network has not been improving"""
+    """Checks if the network has not been improving
+    
+    Inspired by the many answers in the following thread: https://discuss.pytorch.org/t/early-stopping-in-pytorch/18800
+    """
 
     def __init__(self, patience, mode):
         self.patience = patience
