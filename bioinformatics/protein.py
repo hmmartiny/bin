@@ -90,3 +90,5 @@ aa2codons = {
     'Z': ['AAU', 'AAC', 'GAU', 'GAC'],
     'J': ['AUU', 'AUC', 'AUA', 'UUA', 'UUG', 'CUU', 'CUC', 'CUA', 'CUG'],
 }
+
+codon2aa = {c: aa for aa, codons in aa2codons.items() for c in codons}
