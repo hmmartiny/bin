@@ -9,4 +9,6 @@ Saved the functions in a file structure according to what application they might
 
 **bioinformatics**: variables and functions commonly used in bioinformatics workflows (e.g. amino acid to codons dict).
 
+**mysql**: various functions for interacting with a MySQL database.
+
 **notes**: Notes on commands that I do not see a directory to fit in (yet).
